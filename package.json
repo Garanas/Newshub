@@ -1,18 +1,32 @@
 {
   "name": "faforever-newshub",
   "version": "1.0.0",
-  "main": "sw.js",
   "scripts": {
-    "jekyll-install": "cd src && bundle install",
     "jekyll-serve-local": "cd src && bundle exec jekyll serve --baseurl=''",
     "jekyll-build-local": "cd src && bundle exec jekyll build --baseurl='' && npm run workbox-generate",
     "workbox-wizard": "workbox wizard",
-    "workbox-generate": "workbox generateSW src/workbox-config.js"
+    "workbox-generate": "workbox generateSW src/workbox-config.js",
+    "webpack-local": "webpack --config webpack.dev.js",
+    "------": "",
+    "install": "cd src && bundle install",
+    "build": "cd src && bundle exec jekyll build",
+    "build-workbox": "workbox generateSW src/workbox-config.js",
+    "build-webpack": "webpack --config webpack.prod.js"
   },
   "author": "",
   "license": "ISC",
   "description": "",
-  "dependencies": {
+  "devDependencies": {
+    "clean-webpack-plugin": "^2.0.0",
+    "css-loader": "^7.1.2",
+    "file-loader": "^6.2.0",
+    "html-loader": "^5.1.0",
+    "html-webpack-plugin": "^5.6.3",
+    "mini-css-extract-plugin": "^2.9.2",
+    "style-loader": "^4.0.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.2.0",
+    "webpack-merge": "^6.0.1",
     "workbox-cli": "^7.3.0"
   }
 }
