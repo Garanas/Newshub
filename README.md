@@ -25,5 +25,6 @@ This repository contains the source of a proposal for an alternative news hub fo
 
 ### Additional tooling
 
+- [Progressive Web App Builder](https://www.pwabuilder.com/)
 - [Web app manifest generator](https://app-manifest.firebaseapp.com/)
 - [SVG Icon Font generator](https://icomoon.io/app)
