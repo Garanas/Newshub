@@ -8,8 +8,8 @@
   "theme_color": "#2196f3",
   "background_color": "#2196f3",
   "display": "standalone",
-  "scope": "/Newshub/",
-  "start_url": "/Newshub/",
+  "scope": "Newshub/",
+  "start_url": "Newshub/",
   "description": "Newshub for FAForever ",
   "icons": [
     {
