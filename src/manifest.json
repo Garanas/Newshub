@@ -1,5 +1,8 @@
 ---
 # Front matter to make Jekyll to post-process it via Liquid
+
+# For more information about this file:
+# - https://developer.mozilla.org/en-US/docs/Web/Manifest
 ---
 
 {
@@ -8,8 +11,8 @@
   "theme_color": "#2196f3",
   "background_color": "#2196f3",
   "display": "standalone",
-  "scope": "Newshub/",
-  "start_url": "Newshub/",
+  "scope": "/{{ site.baseurl }}",
+  "start_url": "/{{ site.baseurl }}",
   "description": "Newshub for FAForever ",
   "icons": [
     {
