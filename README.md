@@ -13,6 +13,8 @@ This repository contains the source of a proposal for an alternative news hub fo
 
 - [Node Package Manager](https://nodejs.org/en/download/package-manager)
 - [Workbox](https://fredrickb.com/2019/07/25/turning-jekyll-site-into-a-progressive-web-app/) Tooling to generate information required for a progressive webapp
+- [Lighthouse](https://github.com/GoogleChrome/lighthouse): tooling to measure website performance, is integrated in Chrome developer tools
+  - [Lighthouse-ci](https://github.com/GoogleChrome/lighthouse-ci): wrapper to make it easier to do automated testing on website performance
 
 ## Branches
 
@@ -29,3 +31,4 @@ This repository contains the source of a proposal for an alternative news hub fo
 - [Progressive Web App Builder](https://www.pwabuilder.com/)
 - [Web app manifest generator](https://app-manifest.firebaseapp.com/)
 - [SVG Icon Font generator](https://icomoon.io/app)
+- [Favicon generator](https://realfavicongenerator.net/)
