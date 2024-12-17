@@ -33,3 +33,9 @@ jobs:
         run: |
           npm install -g @lhci/cli@0.14.x
           lhci autorun
+
+      - name: Upload Lighthouse report
+        uses: actions/upload-artifact@v3
+        with:
+          name: lighthouse-report
+          path: .lighthouseci
