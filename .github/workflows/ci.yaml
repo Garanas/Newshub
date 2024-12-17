@@ -24,7 +24,7 @@ jobs:
 
       - uses: actions/download-artifact@v4
         with:
-          name: github-pages-build
+          name: build
           path: dist
 
       - name: run Lighthouse CI
