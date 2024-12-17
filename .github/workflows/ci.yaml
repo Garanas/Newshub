@@ -19,6 +19,12 @@ jobs:
     runs-on: ubuntu-latest
     needs: [build]
     steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          sparse-checkout: |
+            .github/*
+
       - name: Use Node.js 20.x
         uses: actions/setup-node@v3
         with:
@@ -33,7 +39,7 @@ jobs:
         continue-on-error: true
         run: |
           npm install -g @lhci/cli@0.14.x
-          lhci autorun
+          lhci autorun --config .github/lighthouserc.json
 
       - name: Upload Lighthouse report
         uses: actions/upload-artifact@v3
