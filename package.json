@@ -1,7 +1,6 @@
 {
   "name": "faforever-newshub",
   "version": "1.0.0",
-  "main": "sw.js",
   "scripts": {
     "jekyll-install": "cd src && bundle install",
     "jekyll-serve-local": "cd src && bundle exec jekyll serve --baseurl=''",
