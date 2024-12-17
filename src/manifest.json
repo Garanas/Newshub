@@ -11,8 +11,8 @@
   "theme_color": "#2196f3",
   "background_color": "#2196f3",
   "display": "standalone",
-  "scope": "/",
-  "start_url": "/{{ site.baseurl }}",
+  "scope": "{{ site.baseurl }}/",
+  "start_url": "{{ site.baseurl }}/",
   "description": "Newshub for FAForever ",
   "icons": [
     {

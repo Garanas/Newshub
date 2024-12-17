@@ -10,7 +10,7 @@ if ("serviceWorker" in navigator) {
     navigator.serviceWorker
       .register("{{ '/service-worker.js' | prepend: site.baseurl | prepend: site.url }}")
       // Output success/failure of registration.
-      .then(() => console.log("SW registered"))
-      .catch(() => console.error("SW registration failed"));
+      .then(() => /** do nothing, for now */)
+      .catch(() => console.error("Service worker registration failed"));
   });
 }
