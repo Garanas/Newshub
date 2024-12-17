@@ -1,0 +1,32 @@
+name: Lighthouse
+
+on: [push]
+
+jobs:
+  build:
+    name: Create a build
+    uses: ./.github/workflows/build.yaml
+
+  performance:
+    # A tool to measure website performance. See also:
+    # - https://github.com/GoogleChrome/lighthouse
+    # - https://github.com/GoogleChrome/lighthouse-ci
+    # - https://github.com/GoogleChrome/lighthouse-ci/blob/main/docs/getting-started.md
+
+    name: Lighthouse
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: github-pages-build
+          path: dist
+
+      - name: Use Node.js 16.x
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16.x
+
+      - name: run Lighthouse CI
+        run: |
+          npm install -g @lhci/cli@0.14.x
+          lhci autorun
