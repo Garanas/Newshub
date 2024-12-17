@@ -1,13 +1,15 @@
-name: Lighthouse
+name: Continuous integration
 
-on: [push]
+on:
+  push:
+    branches-ignore: deploy/gh-pages
 
 jobs:
   build:
     name: Create a build
     uses: ./.github/workflows/build.yaml
 
-  performance:
+  lighthouse:
     # A tool to measure website performance. See also:
     # - https://github.com/GoogleChrome/lighthouse
     # - https://github.com/GoogleChrome/lighthouse-ci
