@@ -2,7 +2,7 @@
   "name": "faforever-newshub",
   "version": "1.0.0",
   "scripts": {
-    "install": "cd src && bundle install",
+    "bundle-install": "cd src && bundle install",
     "build": "cd src && bundle exec jekyll build && npm run workbox-generate",
     "build-dev": "cd src && bundle exec jekyll build --config=_config.dev.yml && npm run workbox-generate",
     "serve": "cd src && bundle exec jekyll serve --config=_config.dev.yml",

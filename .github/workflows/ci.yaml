@@ -33,7 +33,6 @@ jobs:
           path: src/_site
 
       - name: run Lighthouse CI
-        continue-on-error: true
         run: |
           npm install
           npm run lighthouse
