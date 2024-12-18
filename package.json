@@ -2,9 +2,10 @@
   "name": "faforever-newshub",
   "version": "1.0.0",
   "scripts": {
-    "jekyll-install": "cd src && bundle install",
-    "jekyll-serve-local": "cd src && bundle exec jekyll serve --baseurl=''",
-    "jekyll-build-local": "cd src && bundle exec jekyll build --baseurl='' && npm run workbox-generate",
+    "install": "cd src && bundle install",
+    "build": "cd src && bundle exec jekyll build && npm run workbox-generate",
+    "build-dev": "cd src && bundle exec jekyll build --config=_config.dev.yml && npm run workbox-generate",
+    "serve": "cd src && bundle exec jekyll serve --config=_config.dev.yml",
     "workbox-wizard": "workbox wizard",
     "workbox-generate": "workbox generateSW src/workbox-config.js",
     "lighthouse": "lhci collect --config .github/workflows/config/lighthouserc.json"

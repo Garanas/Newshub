@@ -8,7 +8,7 @@ if ("serviceWorker" in navigator) {
   window.addEventListener("load", () => {
     // Register the service worker with "/" as it's scope.
     navigator.serviceWorker
-      .register("{{ '/service-worker.js' | prepend: site.baseurl | prepend: site.url }}")
+      .register("{{ '/service-worker.js' | relative_url }}")
       // Output success/failure of registration.
       .then(() => { /** do nothing, for now */ })
       .catch(() => { console.error("Service worker registration failed") });

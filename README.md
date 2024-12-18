@@ -25,6 +25,8 @@ This repository contains the source of a proposal for an alternative news hub fo
 
 - [Turning a Jekyll site into a Progressive Web App](https://fredrickb.com/2019/07/25/turning-jekyll-site-into-a-progressive-web-app/)
 - [Generating a site map](https://independent-software.com/generating-a-sitemap-xml-with-jekyll-without-a-plugin.html)
+- [Simple cookie consent](https://jekyllcodex.org/without-plugin/cookie-consent/)
+- [Jank-free page loading with media aspect ratios](https://blog.logrocket.com/jank-free-page-loading-with-media-aspect-ratios/)
 
 ### Additional tooling
 
