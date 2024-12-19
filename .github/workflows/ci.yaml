@@ -36,10 +36,9 @@ jobs:
         run: |
           npm install
           npm run lighthouse
-          ls -alR
 
-      # - name: Upload Lighthouse report
-      #   uses: actions/upload-artifact@v3
-      #   with:
-      #     name: lighthouse-report
-      #     path: .
+      - name: Upload Lighthouse report
+        uses: actions/upload-artifact@v3
+        with:
+          name: lighthouse-report
+          path: .lighthouseci
