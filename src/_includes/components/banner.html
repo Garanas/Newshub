@@ -2,6 +2,13 @@
   Input parameters:
   - url: the src attribute of the image
   - alt: the alt attribute of the image
+
+  Related documentation:
+  - https://developer.mozilla.org/en-US/docs/Web/Media/Formats/Image_types
+  - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/picture
+  - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/source
+  - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img
+
 {% endcomment %}
 
 {% assign assetsFolder = 'assets/thumbnails-wide/' %}
@@ -10,15 +17,35 @@
   {% assign imagePath = assetsFolder | append: include.url %}
   <source
     media="(max-width: 960px)"
-    srcset="{{ imagePath | resize: "240x135>" }}"
+    srcset="{{ imagePath | resize: "240x135>" | webp }}"
+    type="image/webp"
   >
   <source
     media="(max-width: 1920px)"
-    srcset="{{ imagePath | resize: "480x270>" }}"
+    srcset="{{ imagePath | resize: "480x270>" | webp }}"
+    type="image/webp"
   >
   <source
     media="(max-width: 2560px)"
-    srcset="{{ imagePath | resize: "960x540>" }}"
+    srcset="{{ imagePath | resize: "960x540>" | webp }}"
+    type="image/webp"
   >
+
+  <source
+    media="(max-width: 960px)"
+    srcset="{{ imagePath | resize: "240x135>" | jpg }}"
+    type="image/jpeg"
+  >
+  <source
+    media="(max-width: 1920px)"
+    srcset="{{ imagePath | resize: "480x270>" | jpg }}"
+    type="image/jpeg"
+  >
+  <source
+    media="(max-width: 2560px)"
+    srcset="{{ imagePath | resize: "960x540>" | jpg}}"
+    type="image/jpeg"
+  >
+
   <img class="banner-image" src="{{ imagePath | relative_url }}" alt="{{include.alt}}">
 </picture>
