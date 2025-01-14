@@ -37,7 +37,7 @@ jobs:
         uses: actions/cache/restore@v4
         with: 
           path: src/cache
-          key: cache
+          key: cache-images-${{ hashFiles('src/assets/**') }}
 
       # We need a development version because we need a base url of '' (empty string)
       - name: Build the development version of the site
@@ -45,9 +45,10 @@ jobs:
           npm ci
           npm run build-dev 
 
-      # Use a cache to (re)store images to speed up build process
+      # We store the images to speed up the build process
 
       - name: Save images to cache
+        if: steps.cache-images-restore.outputs.cache-hit != 'true'
         id: cache-images-save
         uses: actions/cache/save@v4
         with:
