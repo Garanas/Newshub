@@ -30,11 +30,29 @@ jobs:
           cache-version: 0
           working-directory: "${{ github.workspace }}/src"
 
+      # Use a cache to (re)store images to speed up build process
+
+      - name: Restore cached images
+        id: cache-images-restore
+        uses: actions/cache/restore@v4
+        with: 
+          path: src/cache
+          key: cache
+
       # We need a development version because we need a base url of '' (empty string)
       - name: Build the development version of the site
         run: |
           npm ci
           npm run build-dev 
+
+      # Use a cache to (re)store images to speed up build process
+
+      - name: Save images to cache
+        id: cache-images-save
+        uses: actions/cache/save@v4
+        with:
+          path: src/cache
+          key: ${{ steps.cache-images-restore.outputs.cache-primary-key }}
 
       - name: Setup service worker
         run: | 

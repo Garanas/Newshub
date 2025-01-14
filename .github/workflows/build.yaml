@@ -37,7 +37,7 @@ jobs:
         uses: actions/cache/restore@v4
         with:
           path: src/cache
-          key: cache-${{ hashFiles('src/assets/**') }}
+          key: cache
 
       - name: Build with Jekyll
         run: bundle exec jekyll build
