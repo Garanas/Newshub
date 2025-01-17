@@ -1,0 +1,86 @@
+.copy-url-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 10px 15px;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+.copy-url-link {
+  flex: 1;
+  color: #007bff;
+  text-decoration: none;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.copy-url-link:hover {
+  text-decoration: underline;
+}
+
+.copy-url-button {
+  background: none;
+  border: none;
+  padding: 0;
+  margin-left: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  color: #333;
+}
+
+.copy-url-button:hover .icon-copy {
+  color: #007bff;
+}
+
+/* Keyframes for the flash animation */
+@keyframes flash-green {
+  0% {
+    color: #28a745; /* Green color */
+  }
+  100% {
+    color: inherit;
+  }
+}
+
+/* Add the flash animation class */
+.copy-url-button.flash {
+  animation: flash-green 3s ease-in;
+}
+
+.copy-url-button {
+  position: relative;
+}
+
+.copy-url-button::after {
+  content: "Copied!";
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 14px;
+  color: #28a745;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease-out;
+}
+
+@keyframes moveUpFadeOut {
+  0% {
+    transform: translateX(-50%) translateY(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(-50%) translateY(-20px);
+    opacity: 0;
+  }
+}
+
+.copy-url-button.show-msg::after {
+  opacity: 1;
+  animation: moveUpFadeOut 1s forwards;
+}
