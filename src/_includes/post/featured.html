@@ -27,6 +27,9 @@
       {{ include.post.excerpt | truncate: 600 }}
     </span>
 
-    {% include post/generic/navigate.html url=include.post.redirectURL %}
+    <div class="post-featured-redirect">
+      {% include components/url-button.html href=include.post.redirectURL %}
+      {% include components/copy-button.html data=include.post.redirectURL %}
+    </div>
   </div>
 </div>

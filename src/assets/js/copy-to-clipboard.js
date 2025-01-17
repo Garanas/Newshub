@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
   // Find all copy buttons
-  const buttons = document.querySelectorAll(".copy-url-button");
+  const buttons = document.querySelectorAll(".copy-button");
 
   buttons.forEach((button) => {
     button.addEventListener("click", function () {
