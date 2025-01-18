@@ -32,6 +32,7 @@ jobs:
 
       - name: Run lighthouse
         run: |
+          npm ci
           npm run lighthouse
 
       - name: Upload Lighthouse report
