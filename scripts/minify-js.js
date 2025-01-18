@@ -8,16 +8,16 @@ const UglifyJS = require("uglify-js");
     compress: {
       drop_console: true,
       drop_debugger: true,
-      passes: 2, // Two optimization passes
+      passes: 2,
     },
     mangle: {
-      toplevel: true, // Mangle top-level variable names
+      toplevel: true,
     },
     output: {
-      beautify: false, // Ensure the output is minified
+      beautify: false, 
       comments: "some", // Retain comments marked with `/*!`
     },
-    warnings: true, // Enable warnings
+    warnings: true,
   };
 
   try {
