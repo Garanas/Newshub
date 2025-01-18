@@ -54,19 +54,31 @@ jobs:
           path: src/cache
           key: ${{ steps.cache-images-restore.outputs.cache-primary-key }}
 
+      # Minify assets to reduce bundle size
+
+      - name: Minify the build output
+        uses: nizarmah/auto-minify@v3
+        with:
+          directory: "src/_site"
+          output: "src/_minified_site"
+
+      # Turn our website into a PWA
+
       - name: Setup service worker
-        run: | 
+        run: |
           npm install --clean
           npm run workbox-generate
+
+      # Upload artifacts for inspection
 
       - name: Upload artifact for GitHub pages
         uses: actions/upload-pages-artifact@v3
         with:
-          name: 'github-pages'
-          path: "src/_site/"
+          name: "github-pages"
+          path: "src/_minified_site/"
 
       - name: Upload artifact for CI
         uses: actions/upload-artifact@v4
         with:
-          name: 'build'
-          path: "src/_site/"
+          name: "build"
+          path: "src/_minified_site/"
