@@ -60,7 +60,7 @@ jobs:
         uses: nizarmah/auto-minify@v3
         with:
           directory: "src/_site"
-          output: "src/_minified_site"
+          overwrite: true
 
       # Turn our website into a PWA
 
@@ -75,10 +75,10 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           name: "github-pages"
-          path: "src/_minified_site/"
+          path: "src/_site/"
 
       - name: Upload artifact for CI
         uses: actions/upload-artifact@v4
         with:
           name: "build"
-          path: "src/_minified_site/"
+          path: "src/_site/"
