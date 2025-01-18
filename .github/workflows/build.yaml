@@ -50,7 +50,7 @@ jobs:
           key: cache-images-${{ hashFiles('src/assets/**') }}
 
       - name: Build with Jekyll
-        run: bundle exec jekyll build --base-url ${{ inputs.baseurl }}
+        run: bundle exec jekyll build --baseurl ${{ inputs.baseurl }}
         env:
           JEKYLL_ENV: production
 
