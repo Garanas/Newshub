@@ -9,7 +9,7 @@ jobs:
     name: Build the website
     uses: ./.github/workflows/build.yaml
     with:
-      baseurl: ""
+      baseurl: /
 
   lighthouse:
     # A tool to measure website performance. See also:
@@ -17,6 +17,7 @@ jobs:
     # - https://github.com/GoogleChrome/lighthouse-ci
     # - https://github.com/GoogleChrome/lighthouse-ci/blob/main/docs/getting-started.md
 
+    needs: [build]
     name: Lighthouse
     runs-on: ubuntu-latest
     steps:
