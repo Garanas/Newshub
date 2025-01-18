@@ -8,7 +8,7 @@
     "serve": "cd src && bundle exec jekyll serve --config=_config.dev.yml",
     "workbox-wizard": "workbox wizard",
     "workbox-generate": "workbox generateSW config/workbox-config.js",
-    "minify": "--input-dir src/_site --collapse-whitespace --remove-comments --remove-optional-tags --remove-redundant-attributes --remove-script-type-attributes --remove-tag-whitespace --use-short-doctype --minify-css true --minify-js true",
+    "minify-css": "postcss src/_site/**/*.css --replace --no-map --verbose --config config/postcss.config.js",
     "lighthouse": "lhci collect --config config/lighthouserc.json"
   },
   "author": "",
@@ -16,7 +16,10 @@
   "description": "",
   "devDependencies": {
     "@lhci/cli": "^0.14.0",
+    "cssnano": "^7.0.6",
     "html-minifier": "^4.0.0",
+    "postcss": "^8.5.1",
+    "postcss-cli": "^11.0.0",
     "workbox-cli": "^7.3.0"
   }
 }
