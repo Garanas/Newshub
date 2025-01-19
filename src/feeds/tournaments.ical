@@ -9,7 +9,7 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 
 LAST-MODIFIED:{{site.time}}
-NAME:Tournaments of FAForever
+X-NAME:Tournaments of FAForever
 REFRESH-INTERVAL;VALUE=DURATION:PT1H
 
 {% assign tournamentPosts = site.posts | where_exp: 'post', 'post.event' | slice: 0, 5 %}
@@ -20,6 +20,10 @@ DTSTAMP:{{ post.event.startsAt | date: "%Y%m%dT%H%M%SZ" }}
 DTSTART:{{ post.event.startsAt | date: "%Y%m%dT%H%M%SZ" }}
 DTEND:{{ post.event.endsAt | date: "%Y%m%dT%H%M%SZ" }}
 SUMMARY: {{ post.title }} 
+
+{% assign description = post.excerpt | normalize_whitespace | replace: '\n', '\n ' %}
+DESCRIPTION:{{ description }}
+
 CLASS:PUBLIC
 CATEGORIES:Tournament
 PRIORITY:2
