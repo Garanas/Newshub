@@ -32,6 +32,7 @@ permalink: /:year/:month/:day/:title:output_ext
 
 # Build settings
 theme: minima
+plugins_dir: _plugins
 plugins:
   - jekyll-feed
   - jekyll-seo-tag

@@ -1,13 +1,24 @@
+---
+# Dashes to let Jekyll process the file
+---
+
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Example Corp//NONSGML Event//EN
+PRODID:Tournaments of FAForever
+
+{% assign tournamentPosts = site.posts | where_exp: 'post', 'post.event' | slice: 0, 5 %}
+{% for post in tournamentPosts %}
 BEGIN:VEVENT
-UID:1234567890@example.com
-DTSTAMP:20250119T120000Z
-DTSTART:20250125T140000Z
-DTEND:20250125T150000Z
-SUMMARY:Sample Event
-DESCRIPTION:This is a sample event description.
-LOCATION:123 Example Street, Example City
+UID:{{ post.url | slugify }}
+DTSTAMP:{{ post.event.startsAt | date: "%Y%m%dT%H%M%SZ" }}
+DTSTART:{{ post.event.startsAt | date: "%Y%m%dT%H%M%SZ" }}
+DTEND:{{ post.event.endsAt | date: "%Y%m%dT%H%M%SZ" }}
+SUMMARY: {{ post.title }} 
+CLASS:PUBLIC
+CATEGORIES:Tournament
+PRIORITY:2
+URL:{{post.redirectURL}}
 END:VEVENT
+{% endfor %}
+
 END:VCALENDAR
