@@ -8,8 +8,6 @@ jobs:
   build:
     name: Build the website
     uses: ./.github/workflows/build.yaml
-    with:
-      baseurl: '/'
 
   lighthouse:
     # A tool to measure website performance. See also:
