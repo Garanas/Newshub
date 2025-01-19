@@ -10,6 +10,7 @@ METHOD:PUBLISH
 
 LAST-MODIFIED:{{site.time}}
 X-NAME:Tournaments of FAForever
+X-WR-CALNAME:Tournaments of FAForever
 REFRESH-INTERVAL;VALUE=DURATION:PT1H
 
 {% assign tournamentPosts = site.posts | where_exp: 'post', 'post.event' | slice: 0, 5 %}
