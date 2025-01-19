@@ -4,7 +4,13 @@
 
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:Tournaments of FAForever
+PRODID:FAForever
+CALSCALE:GREGORIAN 
+METHOD:PUBLISH
+
+LAST-MODIFIED:{{site.time}}
+NAME:Tournaments of FAForever
+REFRESH-INTERVAL;VALUE=DURATION:PT1H
 
 {% assign tournamentPosts = site.posts | where_exp: 'post', 'post.event' | slice: 0, 5 %}
 {% for post in tournamentPosts %}
