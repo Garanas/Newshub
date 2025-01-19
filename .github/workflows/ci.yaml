@@ -23,6 +23,8 @@ jobs:
     steps:
       - name: Clone Repository
         uses: actions/checkout@v4
+        with:
+          sparse-checkout: config
 
       - name: Use Node.js 20.x
         uses: actions/setup-node@v3
