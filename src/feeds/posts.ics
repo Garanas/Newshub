@@ -3,146 +3,52 @@ VERSION:2.0
 PRODID:icalendar-ruby
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
-DTSTAMP:20250119T214116Z
-UID:4f1cd280-862d-4241-9afb-7803eb2dd1f3
-DTSTART:20240305T123204
-DTEND:20240305T133204
+DTSTAMP:20240305T123204
+UID:/2024/03/05/spring-tourney
+DTSTART:20240305T120000
+DTEND:20240305T180000
 DESCRIPTION:Lorem ipsum odor amet\, consectetuer adipiscing elit. Mauris cu
  rabitur nullam penatibus in torquent\, amet feugiat mattis sapien! Eu eros
   praesent ad interdum est nisi fringilla tristique. Molestie dapibus laore
  et ridiculus erat cubilia imperdiet. Ex neque maximus\; sapien mus varius 
  natoque. Vitae integer montes sagittis condimentum augue aptent. Nascetur 
  ligula praesent mus himenaeos laoreet nisi quis laoreet. Vehicula sed cons
- ectetur accumsan taciti feugiat eros vulputate varius tincidunt.\n\n<!-- e
- xcerpt-end -->\n\nDui fusce fermentum\; aenean convallis felis sem sem veh
- icula. Mollis turpis vitae pharetra\; maecenas penatibus cubilia eget risu
- s. Maximus conubia fringilla montes enim est mattis ex metus. Morbi portti
- tor ultrices curabitur nam aliquet eget vulputate turpis. Curae maecenas l
- ectus mollis ullamcorper blandit. Augue mattis eleifend rutrum bibendum ph
- aretra fermentum magna. Natoque accumsan inceptos ultricies id condimentum
-  euismod in. Natoque cubilia vel phasellus sagittis metus molestie litora 
- mus. Nam sollicitudin maximus iaculis rutrum montes litora tortor.\n\nBlan
- dit a eu penatibus aliquam tempus orci vestibulum pretium. Eu justo aenean
-  ullamcorper himenaeos massa rutrum inceptos sociosqu nullam. Inceptos int
- erdum venenatis scelerisque natoque\, magna justo velit. Accumsan integer 
- imperdiet finibus ex nostra. Pharetra libero posuere libero fermentum faci
- lisis nostra. Pellentesque ante eros per massa nec\; auctor lacus. Purus f
- ermentum ultricies blandit mollis cubilia tortor ligula nisl.
+ ectetur accumsan taciti feugiat eros vulputate varius tincidunt.
 SUMMARY:Spring tourney 2024
-URL;VALUE=URI:https://garanas.github.io/2024/03/05/spring-tourney.html
+URL;VALUE=URI:https://forum.faforever.com/category/1/announcements
+IMAGE;VALUE=URI:https://images.cgames.de/images/gamestar/4/supreme-commande
+ r-forged-alliance-11_1511223.jpg
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250119T214116Z
-UID:66e7a50e-d5fe-48ce-8016-a07f2749ef03
-DTSTART:20240720T133204
-DTEND:20240720T143204
+DTSTAMP:20240720T133204
+UID:/2024/07/20/summer-tourney
+DTSTART:20240720T100000
+DTEND:20240720T180000
 DESCRIPTION:Lorem ipsum odor amet\, consectetuer adipiscing elit. Conubia f
  acilisi eleifend sodales ornare\, quisque ad. Tincidunt montes vestibulum 
  ad mi senectus suspendisse platea. Vehicula lorem class netus gravida temp
  or enim orci penatibus vulputate. Integer lacinia libero pharetra adipisci
  ng elit platea condimentum? Etiam fusce enim torquent natoque magnis. At t
  aciti himenaeos massa cursus ullamcorper lacus rhoncus. Mollis condimentum
-  nam viverra fermentum nec.\n\n<!-- excerpt-end -->\n\nMalesuada faucibus 
- condimentum conubia justo tempus. Facilisis tempor aliquet aenean praesent
-  natoque maecenas luctus. Ad duis parturient curae sagittis dictumst a fac
- ilisi. Eu pharetra primis pretium mauris sit laoreet euismod. Lobortis rho
- ncus ex enim auctor vel quis bibendum eu. Inceptos litora placerat tempor\
- , amet suscipit pulvinar sit purus sagittis. Diam amet etiam faucibus matt
- is sodales suscipit augue tristique. Semper vivamus mollis sem inceptos gr
- avida.\n\nMattis quam dui gravida volutpat massa etiam. Primis vel loborti
- s per rutrum et lectus posuere est. Rutrum hendrerit libero consequat\; po
- suere enim penatibus. At amet rutrum cras etiam aptent potenti placerat es
- t efficitur. Pellentesque felis dis non sed finibus\; quam ex eros. Suscip
- it commodo suspendisse consequat vivamus eu condimentum. Fringilla vel nam
- \, feugiat consectetur aenean nam habitasse lectus. Nisi aptent curabitur 
- venenatis fringilla condimentum id lacus.
+  nam viverra fermentum nec.
 SUMMARY:Summer tourney 2024
-URL;VALUE=URI:https://garanas.github.io/2024/07/20/summer-tourney.html
+URL;VALUE=URI:https://forum.faforever.com/category/1/announcements
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250119T214116Z
-UID:2420aacd-f605-40bb-ae6f-1be68170cf74
-DTSTART:20241126T123204
-DTEND:20241126T133204
-DESCRIPTION:Lorem ipsum odor amet\, consectetuer adipiscing elit. Aenean so
- llicitudin mi metus id lacus parturient mi cursus. Massa mollis viverra ni
- bh ex magnis vehicula. Posuere augue sodales taciti elit maecenas vivamus 
- sagittis. Fusce dictumst senectus hac arcu rutrum arcu vulputate. Conubia 
- nibh morbi parturient aenean urna et quisque tincidunt ullamcorper. Tempor
-  faucibus arcu\; molestie fermentum suscipit enim felis. Ultricies porta c
- ongue rhoncus vitae himenaeos.\n\n<!-- excerpt-end -->\n\nDignissim platea
-  tincidunt vehicula aliquam cras lacus. Ultricies ante quisque dui cubilia
-  senectus porta ullamcorper\; mauris torquent. Justo nec non egestas conva
- llis congue libero. Senectus nulla phasellus cursus fusce duis habitasse p
- ellentesque nisl. Maecenas sed taciti dis hac semper fermentum bibendum. C
- urabitur dapibus habitasse sem eget\, ultricies imperdiet habitant leo vel
- it. Vitae sapien sit ante elit primis nulla.\n\nFermentum placerat mattis 
- at tellus duis praesent integer. Parturient ligula interdum suspendisse ma
- ximus integer risus accumsan ad. Penatibus diam elit dapibus augue pharetr
- a a fusce. Fames curae ridiculus curae consequat sit condimentum. Amet don
- ec donec senectus maximus montes venenatis aptent mattis. Curabitur arcu v
- arius congue hendrerit\; habitasse duis volutpat. Sem venenatis himenaeos 
- etiam neque\; scelerisque habitasse accumsan nostra.\n\nLacinia commodo cl
- ass euismod fermentum suspendisse inceptos rhoncus malesuada praesent. Mas
- sa eleifend id at ligula scelerisque netus faucibus ad facilisi. Nisi dign
- issim facilisis natoque facilisis\; natoque nisi pulvinar convallis. Molli
- s vivamus nec erat convallis lacinia fermentum. Praesent dis egestas nisi 
- purus pretium curae. Fusce vitae nullam mi vivamus consectetur sollicitudi
- n phasellus. Feugiat magna dignissim curae eget sodales dolor leo et. Blan
- dit penatibus consequat velit justo platea vel ullamcorper pretium. Taciti
-  laoreet hac imperdiet nec est donec dapibus dictum. Faucibus sollicitudin
-  nisl ridiculus duis massa cursus molestie suspendisse parturient.\n\nTort
- or ut curabitur id mauris\, eu erat mattis? Pharetra nam eu placerat eu fr
- ingilla dis\, finibus sem potenti. Lectus ornare scelerisque habitasse dis
-  ad elit vel. Fringilla pulvinar congue porttitor himenaeos rhoncus posuer
- e. Class nam orci magnis pulvinar curae parturient gravida. Rutrum nullam 
- risus\, elementum porta cubilia neque facilisis integer porta. Nostra ex v
- iverra aliquet cubilia laoreet conubia efficitur vivamus lectus. Imperdiet
-  rhoncus ullamcorper pulvinar id molestie.\n
-SUMMARY:Fix for the ICE adapter is live
-URL;VALUE=URI:https://garanas.github.io/2024/11/26/ice-adapter-fix.html
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20250119T214116Z
-UID:3c87b62a-714d-4e83-99e7-84b5c7250e7b
-DTSTART:20241126T123204
-DTEND:20241126T133204
-DESCRIPTION:Build orders are crucial to getting your economy off to a healt
- hy start\, learn the best practices when starting a game with TheGreenSqui
- er!\n\n<!-- excerpt-end -->\n
-SUMMARY:First 10 Minutes of Every Game Made Easy
-URL;VALUE=URI:https://garanas.github.io/2024/11/26/build-order.html
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20250119T214116Z
-UID:7b42061b-a689-4920-9ace-b714ce90bc16
+DTSTAMP:20241128T123204
+UID:/2024/11/28/seton-tourney
 DTSTART:20241128T123204
-DTEND:20241128T133204
+DTEND:20241129T133204
 DESCRIPTION:Sign up for the upcoming King of Setons and Prince of Setons to
- urnaments!\n\n<!-- excerpt-end -->\n\nA $125 reward awaits winners of both
-  the King and Prince tournaments. Tournament will be held on November 16th
-  in a Swiss-system format. Watch the tournaments from PMBMizer's and Foley
- 's POV\, on their respective twitch channels. Signups are still open!\n
+ urnaments!
 SUMMARY:Seton's Clutch tourney 2024
-URL;VALUE=URI:https://garanas.github.io/2024/11/28/seton-tourney.html
+URL;VALUE=URI:https://forum.faforever.com/category/1/announcements
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250119T214116Z
-UID:99b838bb-3fc1-47dd-a5db-4b27a51f3ee8
-DTSTART:20241130T123204
-DTEND:20241130T133204
-DESCRIPTION:We're always looking for feedback and ideas on what to improve 
- on FAForever. To reduce the barrier of entry we're reinvigorating a tool u
- sed in the past - user reports! All ideas are welcome\, but of course no g
- uarantee that an idea is applied or implemented.\n\n<!-- excerpt-end -->\n
-SUMMARY:What idea is that!
-URL;VALUE=URI:https://garanas.github.io/2024/11/30/what-idea-is-that.html
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20250119T214116Z
-UID:81e20272-04aa-4611-b002-73516ee7affe
-DTSTART:20241220T123204
-DTEND:20241220T133204
+DTSTAMP:20241220T123204
+UID:/2024/12/20/fall-tourney-02
+DTSTART:20240921T110000
+DTEND:20240922T000000
 DESCRIPTION:Lorem ipsum odor amet\, consectetuer adipiscing elit. Ornare nu
  nc vel in fringilla nostra diam ultricies luctus. Tempor scelerisque ipsum
   blandit ultrices neque eros maecenas! Ridiculus accumsan mauris ut nostra
@@ -151,79 +57,23 @@ DESCRIPTION:Lorem ipsum odor amet\, consectetuer adipiscing elit. Ornare nu
  ro augue feugiat laoreet dis nostra facilisis sollicitudin malesuada. Sagi
  ttis lacinia dui ultrices litora\; aliquam hendrerit viverra fringilla. Di
  ctumst vitae bibendum ante magnis diam nibh. Libero platea nulla accumsan 
- torquent nullam torquent in aliquam senectus.\n\n<!-- excerpt-end -->\n\nC
- ondimentum praesent porta\, velit purus rhoncus nam. Erat fermentum malesu
- ada ridiculus sed placerat blandit ultrices et imperdiet. Mollis id nisl i
- n a fringilla maecenas. Porta eros vestibulum finibus torquent nostra eget
-  sodales. Etiam aenean aenean tortor nisl tincidunt habitant vitae sceleri
- sque. Mattis magna ullamcorper sagittis interdum\; phasellus integer incep
- tos? Arcu duis vehicula torquent massa ligula habitant non platea sociosqu
- . Montes augue neque quis mattis dapibus senectus bibendum massa duis. Tem
- por justo aptent curabitur habitasse feugiat pulvinar enim magna.\n\nMagni
- s hendrerit pulvinar interdum aliquet justo vivamus primis. Rutrum donec t
- incidunt orci primis nullam urna congue justo. Ullamcorper interdum libero
-  odio eget eget vitae luctus venenatis interdum. Fames tortor iaculis conu
- bia conubia mi natoque curae tortor. Odio scelerisque tellus arcu sit elei
- fend tristique sit tortor dui. Lacus sollicitudin mauris condimentum sapie
- n tempor. Finibus ultricies fusce justo magna feugiat porta viverra conval
- lis hac. Efficitur nunc elementum ex dolor sed luctus turpis elit netus. P
- urus nam inceptos augue molestie laoreet nibh. Ornare cras vulputate gravi
- da mauris praesent lobortis imperdiet.\n\nDis scelerisque amet vestibulum 
- habitant nulla arcu mattis suspendisse. Vulputate at turpis fringilla vehi
- cula condimentum urna scelerisque. Arcu rhoncus sapien natoque\, proin ven
- enatis sit risus. Auctor class laoreet semper condimentum in ornare leo. A
- rcu eu aenean ultrices torquent maximus lectus et lectus. Nisl aliquet luc
- tus euismod inceptos aenean nibh. Rutrum eleifend dapibus fermentum venena
- tis metus erat faucibus enim montes.\n\nConvallis phasellus praesent hendr
- erit velit ornare eu sit. Fermentum maecenas luctus lectus penatibus pulvi
- nar tempus nullam laoreet. Platea nulla mollis magnis euismod senectus dia
- m ac morbi. Eu ultricies lectus mauris magnis pellentesque cubilia torquen
- t vitae leo. Mus habitasse facilisis sagittis hendrerit cursus. Mi dolor c
- onsequat bibendum massa nunc condimentum primis. Erat sapien a sociosqu\; 
- elit lacinia neque vehicula etiam. Hendrerit eu hendrerit venenatis fusce 
- phasellus conubia massa mattis laoreet? Congue enim ipsum\, ullamcorper mo
- lestie magnis litora feugiat.
+ torquent nullam torquent in aliquam senectus.
 SUMMARY:Fall tourney 2024
-URL;VALUE=URI:https://garanas.github.io/2024/12/20/fall-tourney-02.html
+URL;VALUE=URI:https://forum.faforever.com/category/1/announcements
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250119T214116Z
-UID:8b74348d-0eaa-44ce-af7e-bd74790d9ef1
-DTSTART:20241220T123204
-DTEND:20241220T133204
+DTSTAMP:20241220T123204
+UID:/2024/12/20/winter-tourney
+DTSTART:20241220T120000
+DTEND:20241221T000000
 DESCRIPTION:Lorem ipsum odor amet\, consectetuer adipiscing elit. Dignissim
   nisl commodo mus penatibus venenatis sed habitasse aptent litora! Vulputa
  te semper curae quisque inceptos\, morbi pharetra maximus sem. Senectus na
  m facilisi vestibulum\; consectetur ornare sociosqu. Maximus malesuada hac
   ac litora finibus auctor ultrices vel. Tempor dolor duis per netus habita
  sse. Arcu curabitur rutrum convallis malesuada morbi ornare et. Porta morb
- i curabitur molestie\, litora dictumst montes.\n\n<!-- excerpt-end -->\n\n
- Primis ac sociosqu aenean leo odio tincidunt ultricies. Sapien nostra leo 
- nunc sapien parturient id ullamcorper. Montes taciti habitasse consequat m
- agnis sed turpis sodales. Praesent velit ullamcorper nisi ullamcorper\; cr
- as lobortis non. Vivamus sagittis dui netus amet nibh iaculis pulvinar. Te
- mpor nulla lobortis consectetur potenti dictum consectetur et gravida. Rut
- rum sed sed elit sollicitudin blandit aliquet consequat. Faucibus accumsan
-  sollicitudin ultricies accumsan pretium odio. Rhoncus molestie metus tris
- tique habitasse id. Sapien sodales imperdiet platea\; ac neque libero.\n\n
- Sapien mollis erat fames proin congue himenaeos interdum porttitor! Vehicu
- la rhoncus mi ultricies per ut. Pharetra mus auctor pulvinar taciti tincid
- unt pharetra phasellus mi. Vehicula ullamcorper condimentum aenean praesen
- t quam cras magna. Per venenatis neque porttitor venenatis dapibus odio mu
- s magnis eu. Phasellus quis integer phasellus potenti ullamcorper leo. Lec
- tus ullamcorper malesuada vestibulum curabitur convallis pulvinar elit nib
- h.\n\nHabitasse viverra primis donec eleifend\; viverra a. Ridiculus phase
- llus tellus fusce maximus diam praesent platea duis. Leo vivamus velit ali
- quet\, dictum lacinia aliquet rhoncus hac. Cubilia sodales dictum ex rutru
- m luctus semper. Faucibus fusce ex convallis praesent sit sem. Orci vulput
- ate consectetur nascetur pretium tempor nam. Sit vitae conubia dignissim t
- ristique curabitur\; iaculis pharetra velit.\n\nNibh nascetur duis ultrice
- s\, sapien est platea. Facilisis vulputate senectus fringilla luctus aenea
- n nisi egestas mollis. Duis ridiculus duis integer\; lacinia litora lectus
- ? Cursus mus tincidunt lacus arcu sociosqu ultrices. Pretium in montes feu
- giat volutpat quis ullamcorper. Dui ut diam dignissim augue malesuada tinc
- idunt integer cras per.
+ i curabitur molestie\, litora dictumst montes.
 SUMMARY:Winter tourney 2024
-URL;VALUE=URI:https://garanas.github.io/2024/12/20/winter-tourney.html
+URL;VALUE=URI:https://forum.faforever.com/category/1/announcements
 END:VEVENT
 END:VCALENDAR
