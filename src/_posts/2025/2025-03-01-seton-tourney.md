@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Seton's Clutch tourney 2024
+date: 2025-03-01 12:00:00 +0100
+
 categories: tournament
 type: regular
 status: live

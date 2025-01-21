@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Summer tourney 2024
-
+date: 2025-01-12 12:00:00 +0100
 categories: tournament
 type: regular
 status: live
@@ -10,8 +10,8 @@ priority: 600
 redirectURL: https://forum.faforever.com/category/1/announcements
 
 event:
-    dtstart: 2025-02-01 09:00:00 +0100
-    dtend: 2025-02-01 16:00:00 +0100
+    dtstart: 2025-01-12 09:00:00 +0100
+    dtend: 2025-01-12 16:00:00 +0100
 
 thumbnails: 
     - file: uef-base.png

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Spring tourney 2024
-
+date: 2025-01-19 12:00:00 +0100
 categories: tournament
 type: regular
 status: live
