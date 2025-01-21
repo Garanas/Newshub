@@ -10,8 +10,8 @@ priority: 600
 redirectURL: https://forum.faforever.com/category/1/announcements
 
 event:
-    startsAt: 2024-12-20 12:00:00 +0100
-    endsAt: 2024-12-20 23:00:00 +0100
+    dtstart: 2024-12-20 12:00:00 +0100
+    dtend: 2024-12-20 23:00:00 +0100
 
 thumbnails: 
     - file: remainders.png

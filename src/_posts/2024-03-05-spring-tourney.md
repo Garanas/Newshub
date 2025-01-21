@@ -11,8 +11,9 @@ priority: 600
 redirectURL: https://forum.faforever.com/category/1/announcements
 
 event:
-    startsAt: 2024-03-05 12:00:00 +0100
-    endsAt: 2024-03-05 17:00:00 +0100
+    dtstart: 2024-03-05 12:00:00 +0100
+    dtend: 2024-03-05 17:00:00 +0100
+    image: https://images.cgames.de/images/gamestar/4/supreme-commander-forged-alliance-11_1511223.jpg
 
 thumbnails: 
     - file: uef-sacu-fight.png
