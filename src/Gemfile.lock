@@ -1,4 +1,12 @@
 GIT
+  remote: https://github.com/Garanas/jekyll-icalendar-feed
+  revision: 6e1a6e9c05d6ce051ea283b2d42c3602d0397f5f
+  specs:
+    jekyll-icalendar-feed (0.17.0)
+      icalendar
+      jekyll (> 3.3, < 5.0)
+
+GIT
   remote: https://github.com/Garanas/jekyll-transcode-image-filters
   revision: 3d523f9db45bdd542f64ecfe762f39015ee68f86
   specs:
@@ -158,9 +166,6 @@ GEM
     jekyll-github-metadata (2.16.1)
       jekyll (>= 3.4, < 5.0)
       octokit (>= 4, < 7, != 4.4.0)
-    jekyll-icalendar-feed (0.17.0)
-      icalendar
-      jekyll (> 3.3, < 5.0)
     jekyll-include-cache (0.2.1)
       jekyll (>= 3.7, < 5.0)
     jekyll-mentions (1.6.0)
@@ -306,7 +311,7 @@ DEPENDENCIES
   jekyll-category-pages
   jekyll-feed (~> 0.17.0)
   jekyll-github-metadata (~> 2.16.1)
-  jekyll-icalendar-feed
+  jekyll-icalendar-feed!
   jekyll-paginate
   jekyll-redirect-from (~> 0.16.0)
   jekyll-seo-tag (~> 2.1)
