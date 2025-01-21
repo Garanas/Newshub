@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/Garanas/jekyll-icalendar-feed
-  revision: 6e1a6e9c05d6ce051ea283b2d42c3602d0397f5f
+  revision: cb03c82e4d45695304dc084f9eccec1a73fd05a1
   specs:
     jekyll-icalendar-feed (0.17.0)
       icalendar
@@ -121,7 +121,7 @@ GEM
       activesupport (>= 2)
       nokogiri (>= 1.4)
     http_parser.rb (0.8.0)
-    i18n (1.14.6)
+    i18n (1.14.7)
       concurrent-ruby (~> 1.0)
     icalendar (2.10.3)
       ice_cube (~> 0.16)
