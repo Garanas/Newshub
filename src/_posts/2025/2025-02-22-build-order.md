@@ -1,7 +1,6 @@
 ---
 layout: post
 title: First 10 Minutes of Every Game Made Easy
-date: 2024-11-26 12:32:04 +0100
 categories: guide
 type: regular
 status: live
