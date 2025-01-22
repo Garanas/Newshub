@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/Garanas/jekyll-icalendar-feed
-  revision: cb03c82e4d45695304dc084f9eccec1a73fd05a1
+  revision: d2ad60f55b015b8b0955d6a24f5b22c7c3972a3d
   specs:
     jekyll-icalendar-feed (0.17.0)
       icalendar
@@ -259,9 +259,9 @@ GEM
     minitest (5.25.4)
     net-http (0.6.0)
       uri
-    nokogiri (1.18.1-x64-mingw-ucrt)
+    nokogiri (1.18.2-x64-mingw-ucrt)
       racc (~> 1.4)
-    nokogiri (1.18.1-x86_64-linux-gnu)
+    nokogiri (1.18.2-x86_64-linux-gnu)
       racc (~> 1.4)
     octokit (4.25.1)
       faraday (>= 1, < 3)
