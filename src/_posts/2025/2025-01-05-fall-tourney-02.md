@@ -9,7 +9,7 @@ priority: 600
 redirectURL: https://forum.faforever.com/category/1/announcements
 
 image:
-    path: assets/images/remainders.png
+    path: assets/images/2025/remainders.png
     alt: The wreckages of a UEF base after a siege by the Aeon faction.
 
 event:

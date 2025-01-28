@@ -10,7 +10,7 @@ priority: 600
 redirectURL: https://forum.faforever.com/category/1/announcements
 
 image:
-    path: assets/images/uef-base.png
+    path: assets/images/2025/uef-base.png
     alt: A UEF base right before a strategic missile explodes.
 
 event:

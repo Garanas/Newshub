@@ -15,7 +15,7 @@ event:
     dtend: 2025-03-01 12:32:04 +0100
 
 image:
-    path: assets/images/tournament-event-01-2024.png
+    path: assets/images/2025/tournament-event-01-2024.png
     alt: A siege of Cybran amphibious units against a Seraphim base.
 ---
 

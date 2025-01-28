@@ -10,7 +10,7 @@ priority: 600
 redirectURL: https://forum.faforever.com/category/1/announcements
 
 image:
-    path: assets/images/uef-sacu-fight.png
+    path: assets/images/2025/uef-sacu-fight.png
     alt: A couple of UEF SACUs in the heat of battle.
 
 event:

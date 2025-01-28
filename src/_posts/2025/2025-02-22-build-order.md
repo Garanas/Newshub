@@ -11,7 +11,7 @@ priority: 700
 redirectURL: https://forum.faforever.com/category/1/announcements
 
 image:
-    path: assets/images/tournament-event-01-2024.png
+    path: assets/images/2025/tournament-event-01-2024.png
     alt: A siege of Cybran amphibious units against a Seraphim base.
 ---
 
