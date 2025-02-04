@@ -2,16 +2,17 @@
 
 title: News of FAForever
 email: promo@faforever.com
-url: https://faforever.github.io
+url: https://news.faforever.com
 description: >-
   Provides news about the community driven lobby for Supreme Commander: Forged Alliance Forever.
 
 permalink: /:year/:month/:day/:title:output_ext
 
+baseurl: ""
+
 plugins_dir: _plugins
 plugins:
   - jekyll-feed
-  - jekyll-seo-tag
   - jekyll-redirect-from
   - jekyll-github-metadata
   - jekyll-category-pages
