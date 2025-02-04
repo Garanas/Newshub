@@ -9,10 +9,6 @@
   flex-direction: row;
   flex-wrap: wrap;
   gap: 1em;
-
-  @media (min-width: $on-medium) {
-    padding: 1em;
-  }
 }
 
 .post-small-item-container {
