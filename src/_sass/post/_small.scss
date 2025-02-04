@@ -27,7 +27,6 @@
 
 .post-small-text-container {
   flex-grow: 3;
-  flex-basis: 400px;
 
   display: flex;
   justify-content: space-between;
@@ -57,11 +56,7 @@
   max-height: 200px;
   flex-basis: 400px;
 
-  // Keep the images of a given row the same size
-  display: flex; 
-  justify-content: center; 
-  align-items: start; 
-  overflow: hidden; 
+  overflow: hidden;
 }
 
 .post-small-meta {
