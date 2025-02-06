@@ -44,9 +44,20 @@
   gap: 0.5rem 1rem;
 }
 
-.post-small-header {
+.post-small-title {
   margin: 0
 }
+
+.post-small-link {
+
+}
+
+.post-small-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 
 .post-small-excerpt {
   margin: 0
