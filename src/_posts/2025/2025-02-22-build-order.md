@@ -4,7 +4,6 @@ title: First 10 Minutes of Every Game Made Easy
 date: 2025-02-22 12:00:00 +0100
 
 categories: guide
-type: regular
 status: live
 priority: 700
 

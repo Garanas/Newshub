@@ -4,7 +4,6 @@ title: Fix for the ICE adapter is live
 date: 2025-01-20 12:00:00 +0100
 
 categories: development
-type: featured
 status: live
 priority: 1000
 

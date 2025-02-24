@@ -3,7 +3,6 @@ layout: post
 title: Fall tourney 2032
 date: 2025-01-05 12:00:00 +0100
 categories: tournament
-type: regular
 status: live
 priority: 600
 redirectURL: https://forum.faforever.com/category/1/announcements

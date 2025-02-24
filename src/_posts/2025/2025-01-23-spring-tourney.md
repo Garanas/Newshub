@@ -3,7 +3,6 @@ layout: post
 title: Spring tourney 2024 - pt. 2
 date: 2025-01-23 12:00:00 +0100
 categories: tournament
-type: regular
 status: live
 priority: 600
 
